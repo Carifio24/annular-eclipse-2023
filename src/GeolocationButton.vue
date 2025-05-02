@@ -54,14 +54,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { VBtn } from 'vuetify/components/VBtn';
-import { VProgressCircular } from 'vuetify/lib/components/index.mjs';
+import { VProgressCircular } from 'vuetify/components';
 
 type Density = null | 'default' | 'comfortable' | 'compact';
 
 export default defineComponent({
   
   name: 'GeolocationButton',
-
 
   components: {
     'v-btn': VBtn,
