@@ -1,10 +1,9 @@
 import Vue, { createApp } from "vue";
 
-import { FundingAcknowledgment, IconButton, LocationSelector } from "@cosmicds/vue-toolkit";
+import { CreditLogos, FundingAcknowledgment, IconButton, LocationSelector } from "@cosmicds/vue-toolkit";
 import AnnularEclipse2023 from "./AnnularEclipse2023.vue";
 import TransitionExpand from "./TransitionExpand.vue";
 import GifPlayPause from "./GifPlayPause.vue";
-import CreditLogos from "./CreditLogos.vue";
 import MCRadiogroup from "./MCRadiogroup.vue";
 import FlipTransition from "./FlipTransition.vue";
 import ImageLabel from "./ImageLabel.vue";
