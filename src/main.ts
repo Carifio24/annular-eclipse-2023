@@ -1,6 +1,6 @@
 import Vue, { createApp } from "vue";
 
-import { CreditLogos, FundingAcknowledgment, IconButton, LocationSelector } from "@cosmicds/vue-toolkit";
+import { CreditLogos, FundingAcknowledgment, IconButton, LocationSelector, UserExperience } from "@cosmicds/vue-toolkit";
 import AnnularEclipse2023 from "./AnnularEclipse2023.vue";
 import TransitionExpand from "./TransitionExpand.vue";
 import GifPlayPause from "./GifPlayPause.vue";
@@ -132,6 +132,7 @@ createApp(AnnularEclipse2023, {
   .component('funding-acknowledgment', FundingAcknowledgment)
   .component('geolocation-button', GeolocationButton)
   .component('hover-tooltip', HoverTooltip)
+  .component('user-experience', UserExperience)
 
   // Mount
   .mount("#app");
